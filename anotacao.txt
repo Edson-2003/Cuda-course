@@ -1,3 +1,11 @@
 -NVIDIA-SMI
 	Retorna as gpus disponiveis na maquina
 
+
+stream default
+
+os kernels trabalham individualmente um após o outro, porém voce pode ter diversos stream non-default
+
+caso o stream pafrão esteja trabalhando nenhum outro kernel não esteja trabalhando
+
+
