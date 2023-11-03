@@ -1,0 +1,3 @@
+-NVIDIA-SMI
+	Retorna as gpus disponiveis na maquina
+
