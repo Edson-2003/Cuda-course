@@ -8,7 +8,8 @@
  * Refactor the kernel definition to prevent out of range accesses.
  */
 
-__global__ void initializeElementsTo(int initialValue, int *a, int N)
+__global__ 
+void initializeElementsTo(int initialValue, int *a, int N)
 {
   int i = threadIdx.x + blockIdx.x * blockDim.x;
   if(i < N)
