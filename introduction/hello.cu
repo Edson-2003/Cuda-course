@@ -1,5 +1,8 @@
 #include<stdio.h>
- void helloCPU()
+
+
+void 
+helloCPU()
 {
   printf("Hello from the CPU.\n");
 }
@@ -10,9 +13,10 @@
  * to read "Hello from the GPU!"
  */
 
-__global__ void helloGPU()
+__global__ 
+void helloGPU()
 {
-  printf("Hello also from the CPU.\n");
+  printf("Hello also from the GPU.\n");
 }
 
 int main()
